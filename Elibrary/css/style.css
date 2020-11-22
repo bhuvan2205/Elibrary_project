@@ -1,0 +1,126 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font:90% sans-serif;
+    text-align: center;
+}
+#header{
+    background-color: #fcf7da;
+}
+#header h1{
+    height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    line-height: 80px;
+}
+#container{
+    height: auto;
+    width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#wrapper{
+    float: right;
+    width: 500px;
+}
+#wrapper p{
+    line-height:1.5;
+    text-align: justify;
+}
+#navi{
+    float: left;
+    height: 500px;
+    width: 200px;
+    background: #f1e6c7;
+}
+#navi ul{
+    margin-left: 10px;
+    list-style: square;  
+}
+#navi ul li{
+    margin-bottom: 5px;
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: green;
+}
+#footer{
+    clear: both;
+    width: 100%;
+    background:  #faf1b6;
+}
+#footer p{
+    margin: 0px;
+    padding: 5px 10px;
+    text-align: center;
+    color: rgb(24, 82, 82);
+}
+P{
+   margin: 0 10px 10px;
+}
+#heading{
+    text-align: center;
+
+}
+#center{
+    height: auto;
+    width: 300px;
+    margin-left: 100px;
+}
+label,input,button,select,textarea{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input,select,textarea{
+    width: 100%;
+    border: 1px black solid;
+    height: 30px;
+}
+button{
+    margin-top: 20px;
+       margin-left: 100px;
+       font-weight: 600;
+
+}
+.error{
+    color: red;
+    text-align: center;
+}
+.success{
+    color: green;
+    text-align: center;
+}
+.record{
+    margin-top: 45px;
+    list-style: square;
+}
+.record li{
+    margin-top: 15px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table td, table th{
+    border: 1px solid black;
+    padding: 5px;
+}
+#efile{
+    border: none;
+}
+strong{
+    color: rgb(248, 108, 27);
+    padding: 5px;
+}
+i{
+    color: rgb(12, 128, 206);
+    padding: 5px;
+}
